@@ -28,3 +28,5 @@ export interface Potion extends BaseItem{
     effect: string;
     duration: number;
 }
+
+export type InventoryItem = Weapon | Armor | Potion;
